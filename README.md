@@ -15,16 +15,16 @@ Bu proje, Python'da dinamik özellik yönetimi ve tür doğrulama işlevselliği
 from typeTonic import var
 import json
 
-# Özellik atama
+Özellik atama
 var.isim = "burak"
 print(var.isim)  # "burak" yazdırır
 
-# Liste oluşturma ve güncelleme
+Liste oluşturma ve güncelleme
 var.list = ["burak", "emre"]
-print(var.list)  # ["burak", "emre"] yazdırır
+print(var.list) 
 var.list.append("deneme")
-print(var.list)  # ["burak", "emre", "deneme"] yazdırır
+print(var.list)  
 
-# JSON doğrulama
+JSON doğrulama
 var.sendData = {"deneme": "123"}
-print(var.isJson(json.dumps(var.sendData)))  # True yazdırır
+print(var.isJson(json.dumps(var.sendData)))  
